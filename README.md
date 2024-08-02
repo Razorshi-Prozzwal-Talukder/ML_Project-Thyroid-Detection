@@ -7,7 +7,6 @@ To build a classification methodology to predict the type of Thyroid based on th
 ![](Images/architecture.jpg)
 
 <a href="https://drive.google.com/uc?export=view&id=1Pg1EQG6dGE-rC7-ug9k-QXnaSvrGRAZ1"><img src="https://drive.google.com/uc?export=view&id=1Pg1EQG6dGE-rC7-ug9k-QXnaSvrGRAZ1" style="width: 100px; max-width: 50%; height: auto" title="Click for the larger version." /></a>
-<a href="https://drive.google.com/uc?export=view&id=1Pc8kV7yDDvvv5VE9h4DJhTliiTtpJSfj"><img src="https://drive.google.com/uc?export=view&id=1Pc8kV7yDDvvv5VE9h4DJhTliiTtpJSfj" style="width: 100px; max-width: 50%; height: auto" title="Click for the larger version." /></a>
 
 
 ## Data Description
@@ -70,9 +69,7 @@ In this step, we perform different sets of validation on the given set of traini
 4) Prediction - Based on the cluster number, the respective model is loaded and is used to predict the data for that cluster.
 5) Once the prediction is made for all the clusters, the predictions along with the original names before label encoder are saved in a CSV file at a given location and the location is returned to the client.
 
-## Deployment
-We will be deploying the model to the any Cloud Based Service Platform for example, AWS, Azure, GCP, Heroku or Pivotal Web Services. 
-This is a workflow diagram for the prediction of using the trained model.                 
+              
 
 
 
